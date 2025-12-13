@@ -1,0 +1,13 @@
+name = "hidename(nick) and Player health show and (Nick Change)-Hidden Name"
+filename = "H2-blockhide1.20.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "930193a66f429ca3e2a90edcb5115a6b57205228"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6439799
+project-id = 1200277

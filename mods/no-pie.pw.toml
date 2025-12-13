@@ -1,0 +1,13 @@
+name = "No Pieray"
+filename = "NoF3.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "db471b243598e9b92dba450ac9077e1ee3b239e4"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6789057
+project-id = 1137835

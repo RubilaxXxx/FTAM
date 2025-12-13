@@ -1,9 +1,0 @@
-{
-  "slot": "suffuse:attachment/slot/m7_silencer",
-  "model": "suffuse:attachment/m7_silencer_geo",
-  "texture": "suffuse:attachment/uv/m7_silencer",
-  "sounds": {
-    "install": "tacz:attachments/muzzle_general",
-    "uninstall": "tacz:attachments/muzzle_general"
-  }
-}

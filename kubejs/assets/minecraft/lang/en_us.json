@@ -1,0 +1,48 @@
+{
+    "attribute.name.tacz.bullet_resistance": "Bullet Resistance",
+
+    "item.name.lrarmor.dea_armed_helmet": "Police Helmet",
+    "item.name.lrarmor.dea_armed_chestplate": "Police Chestplate",
+    "item.name.lrarmor.dea_armed_leggings": "Police Leggings",
+    "item.name.lrarmor.dea_armed_boots": "Police Boots",
+
+    "item.name.lrarmor.fbi_armed_helmet": "FBI Helmet",
+    "item.name.lrarmor.fbi_armed_chestplate": "FBI Chestplate",
+    "item.name.lrarmor.fbi_armed_leggings": "FBI Leggings",
+    "item.name.lrarmor.fbi_armed_boots": "FBI Boots",
+
+    "item.name.lrarmor.scout_helmet": "Scout Helmet",
+    "item.name.lrarmor.scout_chestplate": "Scout Chestplate",
+    "item.name.lrarmor.scout_leggings": "Scout Leggings",
+    "item.name.lrarmor.scout_boots": "Scout Boots",
+
+    "item.name.lrarmor.attacker_helmet": "Tactical Helmet",
+    "item.name.lrarmor.attacker_chestplate": "Tactical Chestplate",
+    "item.name.lrarmor.attacker_leggings": "Tactical Leggings",
+    "item.name.lrarmor.attacker_boots": "Tactical Boots",
+
+    "item.name.lrarmor.medical_helmet": "Medical Helmet",
+    "item.name.lrarmor.medical_chestplate": "Medical Chestplate",
+    "item.name.lrarmor.medical_leggings": "Medical Leggings",
+    "item.name.lrarmor.medical_boots": "Medical Boots",
+
+    "item.name.lrarmor.chemical_protective_helmet": "Hazmat Helmet",
+    "item.name.lrarmor.chemical_protective_chestplate": "Hazmat Chestplate",
+    "item.name.lrarmor.chemical_protective_leggings": "Hazmat Leggings",
+    "item.name.lrarmor.chemical_protective_boots": "Hazmat Boots",
+
+    "item.name.lrarmor.armored_chemical_helmet": "Advanced Hazmat Helmet",
+    "item.name.lrarmor.armored_chemical_chestplate": "Advanced Hazmat Chestplate",
+    "item.name.lrarmor.armored_chemical_leggings": "Advanced Hazmat Leggings",
+    "item.name.lrarmor.armored_chemical_boots": "Advanced Hazmat Boots",
+
+    "item.name.lrarmor.sniper_helmet": "Sniper Helmet",
+    "item.name.lrarmor.sniper_chestplate": "Sniper Chestplate",
+    "item.name.lrarmor.sniper_leggings": "Sniper Leggings",
+    "item.name.lrarmor.sniper_boots": "Sniper Boots",
+
+    "item.name.lrarmor.defender_helmet": "Juggernaut Helmet",
+    "item.name.lrarmor.defender_chestplate": "Juggernaut Chestplate",
+    "item.name.lrarmor.defender_leggings": "Juggernaut Leggings",
+    "item.name.lrarmor.defender_boots": "Juggernaut Boots"
+}

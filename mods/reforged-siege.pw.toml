@@ -1,0 +1,13 @@
+name = "Reforged Siege"
+filename = "ReforgedSiege-1.0.2-1.20.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "744db6d9088ea2bab2ea9dbaba481d23dda81cbe"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6764306
+project-id = 1306091
