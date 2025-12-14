@@ -28,6 +28,13 @@ jobs:
               run: |
                   go install github.com/packwiz/packwiz@latest
 
+            # -------- PREPARE PACKWIZ CACHE --------
+            # Create the directory and mount import/
+            - name: Mount import directory
+              run: |
+                  mkdir -p /home/runner/.cache/packwiz/cache/
+                  ln -s ${{ github.workspace }}/import /home/runner/.cache/packwiz/cache/import
+
             # -------- VERSION --------
 
             - name: Read release tag
@@ -39,14 +46,16 @@ jobs:
             # -------- EXPORT CLIENT PACKS --------
 
             - name: Export CurseForge client pack
+              working-directory: pack
               run: |
                   packwiz curseforge export \
-                    --output ftam-reloaded-${{ steps.version.outputs.tag }}-curseforge.zip
+                    --output ../ftam-reloaded-${{ steps.version.outputs.tag }}-curseforge.zip
 
             - name: Export Modrinth client pack
+              working-directory: pack
               run: |
                   packwiz modrinth export \
-                    --output ftam-reloaded-${{ steps.version.outputs.tag }}-modrinth.zip
+                    --output ../ftam-reloaded-${{ steps.version.outputs.tag }}-modrinth.zip
 
             # -------- SANITY CHECK --------
 
@@ -56,7 +65,7 @@ jobs:
 
             # -------- UPLOAD TO RELEASE --------
 
-            - name: Upload packs to release.
+            - name: Upload packs to release
               run: |
                   gh release upload \
                     "${{ github.event.release.tag_name }}" \
