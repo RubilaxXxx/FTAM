@@ -30,10 +30,10 @@ jobs:
 
             # -------- PREPARE PACKWIZ CACHE --------
             # Create the directory and mount import/
-            - name: Mount import directory
+            - name: Prepare import cache
               run: |
-                  mkdir -p /home/runner/.cache/packwiz/cache/
-                  ln -s ${{ github.workspace }}/import /home/runner/.cache/packwiz/cache/import
+                  mkdir -p /home/runner/.cache/packwiz/cache/import
+                  cp -r ${{ github.workspace }}/import/* /home/runner/.cache/packwiz/cache/import/
 
             # -------- VERSION --------
 
