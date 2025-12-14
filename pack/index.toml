@@ -187,11 +187,6 @@ hash = "84eea5e3a2052834d2961bf32d3275debbcc15717cb02cb968dfb4b6e9d0096d"
 metafile = true
 
 [[files]]
-file = "mods/chloride.pw.toml"
-hash = "e6004fa6b637cb37c6d694148fd7691507ab889591764e188d8011f2c29e2159"
-metafile = true
-
-[[files]]
 file = "mods/cloth-config.pw.toml"
 hash = "96204145e12506e0625d8b9bfa05aad54e9a62fd511bae39f0d57fcb5e39f4cc"
 metafile = true
@@ -388,7 +383,7 @@ metafile = true
 
 [[files]]
 file = "mods/glodium.pw.toml"
-hash = "2d5a54cacec5fd73b7dbedbd31e070c836104c7d377cf189e7b90a279d9515e1"
+hash = "2a7944b951ebfaa4dcf963c3e2faf43eb8115d99a4390daa49dd8ea6676e8828"
 metafile = true
 
 [[files]]
