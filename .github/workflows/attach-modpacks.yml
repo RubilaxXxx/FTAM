@@ -57,6 +57,34 @@ jobs:
                   packwiz modrinth export \
                     --output ../ftam-reloaded-${{ steps.version.outputs.tag }}-modrinth.zip
 
+            # -------- EXPORT TECHNIC PACK --------
+
+            - name: Prepare Technic pack
+              run: |
+                  TAG="${{ steps.version.outputs.tag }}"
+                  MODRINTH_ZIP="ftam-reloaded-${TAG}-modrinth.zip"
+                  TECHNIC_ZIP="ftam-reloaded-${TAG}-technic.zip"
+
+                  mkdir -p technic-extract
+                  unzip -q "$MODRINTH_ZIP" -d technic-extract
+
+                  echo "Initial extracted structure:"
+                  find technic-extract -maxdepth 2 -type d
+
+                  # Ensure required directories exist
+                  mkdir -p technic-extract/overrides/mods
+                  mkdir -p technic-extract/client-overrides/mods
+
+                  echo "Merging client-overrides/mods into overrides/mods..."
+                  cp -r technic-extract/client-overrides/mods/* technic-extract/overrides/mods/ 2>/dev/null || true
+
+                  echo "Zipping entire overrides directory..."
+                  cd technic-extract/overrides
+                  zip -r "../../$TECHNIC_ZIP" ./* >/dev/null
+
+                  cd ../..
+                  echo "Technic pack created: $TECHNIC_ZIP"
+
             # -------- EXPORT SERVER PACK --------
 
             - name: Prepare server pack
@@ -64,7 +92,7 @@ jobs:
                   # define filenames
                   TAG="${{ steps.version.outputs.tag }}"
                   MODRINTH_ZIP="ftam-reloaded-${TAG}-modrinth.zip"
-                  SERVER_ZIP="ftam-reloaded-${TAG}-server.zip"
+                  SERVER_ZIP="ftam-reloaded-${TAG}-mods.zip"
 
                   # make workspace
                   mkdir -p server-extract
@@ -99,7 +127,9 @@ jobs:
               run: |
                   gh release upload \
                     "${{ github.event.release.tag_name }}" \
+                    ftam-reloaded-${{ steps.version.outputs.tag }}-mods.zip \
                     ftam-reloaded-${{ steps.version.outputs.tag }}-curseforge.zip \
-                    ftam-reloaded-${{ steps.version.outputs.tag }}-modrinth.zip
+                    ftam-reloaded-${{ steps.version.outputs.tag }}-modrinth.zip \
+                    ftam-reloaded-${{ steps.version.outputs.tag }}-technic.zip
               env:
                   GITHUB_TOKEN: ${{ github.token }}
