@@ -56,7 +56,7 @@ jobs:
 
             # -------- UPLOAD TO RELEASE --------
 
-            - name: Upload packs to release
+            - name: Upload packs to release.
               run: |
                   gh release upload \
                     "${{ github.event.release.tag_name }}" \
