@@ -57,6 +57,36 @@ jobs:
                   packwiz modrinth export \
                     --output ../ftam-reloaded-${{ steps.version.outputs.tag }}-modrinth.zip
 
+            # -------- EXPORT SERVER PACK --------
+
+            - name: Prepare server pack
+              run: |
+                  # define filenames
+                  TAG="${{ steps.version.outputs.tag }}"
+                  MODRINTH_ZIP="ftam-reloaded-${TAG}-modrinth.zip"
+                  SERVER_ZIP="ftam-reloaded-${TAG}-server.zip"
+
+                  # make workspace
+                  mkdir -p server-extract
+                  unzip -q "$MODRINTH_ZIP" -d server-extract
+
+                  # check folder layout for debugging (optional)
+                  echo "Extracted structure:"
+                  find server-extract -maxdepth 2 -type d
+
+                  # ensure overrides/mods exists
+                  if [ ! -d "server-extract/overrides/mods" ]; then
+                    echo "ERROR: overrides/mods not found! Check your modpack structure."
+                    exit 1
+                  fi
+
+                  # copy and zip only overrides/mods
+                  cd server-extract/overrides
+                  zip -r "../../$SERVER_ZIP" mods
+
+                  cd ../..
+                  echo "Server pack created: $SERVER_ZIP"
+
             # -------- SANITY CHECK --------
 
             - name: List generated files
