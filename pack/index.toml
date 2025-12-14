@@ -407,11 +407,6 @@ hash = "11ddfeec18e041ef8a810bc0aad8c984a5d2737430af9b8291f4c224b7baede8"
 metafile = true
 
 [[files]]
-file = "mods/immersive-tips.pw.toml"
-hash = "03778074ce0d3ac317d4b0d0a30a9c79e0a5c7ffb629a506cc5d3d39b3f87ab8"
-metafile = true
-
-[[files]]
 file = "mods/in-control.pw.toml"
 hash = "3f4f381b70a70d4cd22320571b1ba4d6ad73081f470cd0423fc643bef8df13fa"
 metafile = true
@@ -593,7 +588,7 @@ metafile = true
 
 [[files]]
 file = "mods/openblocks-elevator.pw.toml"
-hash = "51bf17db22eee5fb80da0b2efe87b846f1165bafc67a789782c5fd976c406ffa"
+hash = "9d66478fde6c978312f93734d481bcb9ae9c49b74cb4538fce58c65ef15d593c"
 metafile = true
 
 [[files]]
