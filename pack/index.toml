@@ -703,7 +703,7 @@ metafile = true
 
 [[files]]
 file = "mods/tacz-tweaks.pw.toml"
-hash = "4ad23be2d9949f7304293864fcfbafbbebf73442cba2358290cec3bc3a571275"
+hash = "f56b12a8141b252bd6c60b332a27e8f50bce4f4703d08bc2a15dfc0a1287ab5f"
 metafile = true
 
 [[files]]
