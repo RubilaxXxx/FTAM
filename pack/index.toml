@@ -276,6 +276,11 @@ hash = "c5bae4ab2565eee6c097faa018da86890d80c5bb99bc4423cf4142a3f67b7b1b"
 metafile = true
 
 [[files]]
+file = "mods/doomsday-decoration.pw.toml"
+hash = "1fb18505ec4875548903e27a2b05d094fcd96489072db89ce58bcaf41abeeb71"
+metafile = true
+
+[[files]]
 file = "mods/easy-npc-config-ui.pw.toml"
 hash = "99caf89cf17ff5ffa4dbf59842b736e1fe4f4ad4be6d9feb25e7bb8f9590bd80"
 metafile = true
@@ -431,8 +436,8 @@ hash = "9779719134e508c31ef0cb08ed272daef6d3b4a8a5bff07e48f9695e88e5a410"
 metafile = true
 
 [[files]]
-file = "mods/iron-chests.pw.toml"
-hash = "4aba12c2a18205fe6d25d1af817ee8c0baa580a74048cb30c659f6be66f31d2e"
+file = "mods/ironchests.pw.toml"
+hash = "b0dee9f7b850fd3dd30d13ca191493c85901e62bb897cb0e74c373f641a540be"
 metafile = true
 
 [[files]]
@@ -507,7 +512,7 @@ metafile = true
 
 [[files]]
 file = "mods/mekanism-elements.pw.toml"
-hash = "c21fe4089505c4830a01392601b1eb3b833ea651570e8834a83448eba5f552ca"
+hash = "8e6533034ac70f32ac30bb186ffb198fb6f5acc5d6b0c45a176c249571d07a66"
 metafile = true
 
 [[files]]
@@ -740,12 +745,12 @@ metafile = true
 
 [[files]]
 file = "mods/xaeros-minimap-fair-play-edition.pw.toml"
-hash = "5484f52f5055b1bc42a21508214caf4a3a2c89353a49765b4be6cd24f7d5514e"
+hash = "b0b924cce899b23d5d1472883105593070bf3a6518af06dff9d7ba5a38eab94a"
 metafile = true
 
 [[files]]
 file = "mods/xaeros-world-map.pw.toml"
-hash = "8c1d85564af53d61caf23b502b60c494d33450a670093fdd3e2f412368682ecc"
+hash = "978160cb61e318a1d1bccbc97cf62a471bf3777145602152d7f78a7a3aa3e192"
 metafile = true
 
 [[files]]

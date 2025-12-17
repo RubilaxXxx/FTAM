@@ -1,13 +1,14 @@
 name = "Mekanism Elements"
-filename = "MekanismElements-1.20.1-2.3.jar"
+filename = "MekanismScience-1.20.1-2.2.jar"
 side = "both"
+pin = true
 
 [download]
 hash-format = "sha1"
-hash = "fc509e484492a3c205f1eafa70b205c932a473d0"
+hash = "c91e2743c58595e766d4bd9f09d0e0ece3933d35"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 6537553
+file-id = 6421777
 project-id = 1103224
