@@ -1,12 +1,8 @@
 hash-format = "sha256"
 
 [[files]]
-file = "bin/1.20.1.json"
-hash = "66be8f40213ceea7144884152041904542bb32510ecf1a37deea7c43f0e34b7d"
-
-[[files]]
-file = "bin/version.json"
-hash = "df6b8ae3f8af705f03d235a1a336d4845e76c4ef92b69ae63b71e2433afd8a3e"
+file = "bin/modpack.jar"
+hash = "1912760b4cb6b803d8a826de603c9076b1da71ec2765e9a1f8c1ca78f65278e3"
 
 [[files]]
 file = "config/fancymenu/assets/3.png"
@@ -122,6 +118,11 @@ hash = "db2b2be56b661668acd7799856656b2f4585ce99231dd8cbcb8038b744c5e448"
 metafile = true
 
 [[files]]
+file = "mods/ae2-things-forge.pw.toml"
+hash = "8f7696617249a4be35a9d1a2caecce4e17bbffe823f904d10c6fc8b72c4352ca"
+metafile = true
+
+[[files]]
 file = "mods/almost-unified.pw.toml"
 hash = "362a11c37aab6033f98b1f20a9c7d7d3955cc1f1a22d241292f10a58256fea62"
 metafile = true
@@ -177,6 +178,11 @@ hash = "f8b6ef08945410e1341212a2723477487fb66a2c8fd67dd201433658791d298d"
 metafile = true
 
 [[files]]
+file = "mods/better-compatibility-checker.pw.toml"
+hash = "a167c88b43b73530c14b77d8cfa8c3546ee665ffa317f0451a6767e46bdae0de"
+metafile = true
+
+[[files]]
 file = "mods/biggerreactors.pw.toml"
 hash = "2fd3dde1acdfa58ee1cd8e95930db1660cd061c1dc6388d05a7b3703c7c3b205"
 metafile = true
@@ -188,6 +194,11 @@ hash = "b062f8ac14db3dbf0c928111d7ab8f92779dda9a28a2121f006306353276f8aa"
 [[files]]
 file = "mods/capable-cauldrons.pw.toml"
 hash = "84eea5e3a2052834d2961bf32d3275debbcc15717cb02cb968dfb4b6e9d0096d"
+metafile = true
+
+[[files]]
+file = "mods/cia.pw.toml"
+hash = "67fb1d3a61ba774bc67f71bd220b16c84eee33aee074554e8dd5331196340f70"
 metafile = true
 
 [[files]]
@@ -263,11 +274,6 @@ metafile = true
 [[files]]
 file = "mods/cupboard.pw.toml"
 hash = "2eb26b157c4159bfeff6a00147afa35284397d558f84b55367d1a41064d7456a"
-metafile = true
-
-[[files]]
-file = "mods/default-options.pw.toml"
-hash = "aaf9de07b98813922b2125dcaffd827aa7ccab618ea54edeb92d9689f82bf049"
 metafile = true
 
 [[files]]
@@ -403,6 +409,11 @@ metafile = true
 [[files]]
 file = "mods/guideme.pw.toml"
 hash = "5cc92eb0e58c2afbfd625d727d80da1d1c84500ec962bb22f5be28b864f18551"
+metafile = true
+
+[[files]]
+file = "mods/hang-glider.pw.toml"
+hash = "2d1f7089fae7d676321595a1228f15e9a160a1aeb5519d5508c0f4015781cb43"
 metafile = true
 
 [[files]]
@@ -571,6 +582,11 @@ hash = "820d6b97344411476b96ae2bc8a3e4b9e30e15dfd15d8d0c945726b0011928d4"
 metafile = true
 
 [[files]]
+file = "mods/new-paper-doll.pw.toml"
+hash = "2183b69411f69d9531b9b532eaf05605a64ab26fb761f74a64b2d7751f804e73"
+metafile = true
+
+[[files]]
 file = "mods/no-chat-reports.pw.toml"
 hash = "1d602996f39fb6103a5b968f50ec06800db7125b145570474c9c10e6dcd0c68e"
 metafile = true
@@ -593,6 +609,11 @@ metafile = true
 [[files]]
 file = "mods/openblocks-elevator.pw.toml"
 hash = "9d66478fde6c978312f93734d481bcb9ae9c49b74cb4538fce58c65ef15d593c"
+metafile = true
+
+[[files]]
+file = "mods/overflowing-bars.pw.toml"
+hash = "4c1f6dcff3caee73a2f4059d4ccc3fda792cfffcde94329b2d4a390e2fc6ec45"
 metafile = true
 
 [[files]]
@@ -739,6 +760,11 @@ hash = "7fcd46340fac1e5631f2e4635cd13b46b890ca873a4f11d354b542a7a86e0c42"
 metafile = true
 
 [[files]]
+file = "mods/welcome-screen.pw.toml"
+hash = "c38c629ae0da0427166dc268022de6ac1436077b557ba178d75b6a28c495a374"
+metafile = true
+
+[[files]]
 file = "mods/worldedit.pw.toml"
 hash = "bd1dc13316e2aa9b56c89e7e974057f8da8d6bbfe707ba4210109fc612b782e3"
 metafile = true
@@ -761,6 +787,11 @@ metafile = true
 [[files]]
 file = "mods/yacl.pw.toml"
 hash = "c08817fe8025a9d62c8f7abd5f56a54b90673e5ab60f39ae8fa1d70d5ace529b"
+metafile = true
+
+[[files]]
+file = "mods/yosby.pw.toml"
+hash = "2d117e5dec49c7f08b89e011a7462b21d8ed89df51aba960a172b1c10784d498"
 metafile = true
 
 [[files]]
@@ -3114,6 +3145,10 @@ hash = "8ad68c5345b7899a67cffb118e78ac5f69b61f083473d6faee028d221f094e1e"
 [[files]]
 file = "tacz/CS2 Knifes Pack.zip"
 hash = "6b65cea6ae89bd26f8383f29fcfd0c1100343f4f720a090333754d4794bd1ff3"
+
+[[files]]
+file = "tacz/tacz-pre.toml"
+hash = "43c6ae6662c5e385872d5892b913fa524f210c77bcb4589062d5f814e2cb9339"
 
 [[files]]
 file = "tacz/tacz_default_gun/README.txt"
@@ -12349,7 +12384,7 @@ hash = "405ad9a2eb914bf0ad3c8e3ecde2ec5fe4ba9370be3be253ec823ce2a41295bf"
 
 [[files]]
 file = "tacz/tacz_default_gun/data/tacz/data/guns/m1911_data.json"
-hash = "3248c3166423acb42955a3c50c0d4ec95f4558d46b42a395943985296696bf2d"
+hash = "fbc3c2615d83ade678ce0f5b67f3e0488ea0500763b4123fe8fce1d7f7ef4c15"
 
 [[files]]
 file = "tacz/tacz_default_gun/data/tacz/data/guns/m249_data.json"
