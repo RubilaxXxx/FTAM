@@ -1,0 +1,13 @@
+name = "Corundum Guardian Reborn"
+filename = "corundumguardian-2.2.0-forge-1.20.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "bf1c3bfbb85add8d07ac0c37a98a066796e67b4f"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5705950
+project-id = 928884
