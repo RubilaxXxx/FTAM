@@ -466,16 +466,6 @@ hash = "307a376da841d2b3fab6975aefcce8145ea274fba81a57fc04a53e4a8c12f230"
 metafile = true
 
 [[files]]
-file = "mods/journeymap-teams.pw.toml"
-hash = "8eeab9a01c723c858d1eac2517d19198f19e0237f297e33107af0790493a54db"
-metafile = true
-
-[[files]]
-file = "mods/journeymap.pw.toml"
-hash = "664a573384edf644e9b788c7c29fe32593917ac8283bb794cc46b471a0a6504a"
-metafile = true
-
-[[files]]
 file = "mods/konkrete.pw.toml"
 hash = "143102be700d30cf68d0988bc9f1b523545e37b7074ee786faac56a388e6f0e9"
 metafile = true
@@ -735,7 +725,7 @@ metafile = true
 
 [[files]]
 file = "mods/txnilib.pw.toml"
-hash = "7149b1beafef2ce275da37dd5ca2e12f5527ad979420630ecdef5bcabd4fef32"
+hash = "f078f818313c119d02997fc64aa082f1eb9cc3e40c00c09fcca1d9647a6a2191"
 metafile = true
 
 [[files]]
@@ -746,6 +736,16 @@ metafile = true
 [[files]]
 file = "mods/worldedit.pw.toml"
 hash = "bd1dc13316e2aa9b56c89e7e974057f8da8d6bbfe707ba4210109fc612b782e3"
+metafile = true
+
+[[files]]
+file = "mods/xaeros-minimap-fair-play-edition.pw.toml"
+hash = "5484f52f5055b1bc42a21508214caf4a3a2c89353a49765b4be6cd24f7d5514e"
+metafile = true
+
+[[files]]
+file = "mods/xaeros-world-map.pw.toml"
+hash = "8c1d85564af53d61caf23b502b60c494d33450a670093fdd3e2f412368682ecc"
 metafile = true
 
 [[files]]
