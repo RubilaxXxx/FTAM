@@ -370,7 +370,7 @@ metafile = true
 
 [[files]]
 file = "mods/drippy-loading-screen.pw.toml"
-hash = "199c6ed7a2f1fcd6b15065d0add9b3517fef49b356e4d0e75e1b695cca2b1089"
+hash = "9de8687c9493b7809be2d236d4b2456b5866b1586aa98b729c8d0ef7d4c25117"
 metafile = true
 
 [[files]]
@@ -480,11 +480,6 @@ metafile = true
 [[files]]
 file = "mods/ftb-ultimine-forge.pw.toml"
 hash = "95b3a27eadc2854462de996ddce5ff2468771e13ac97c46ed96d41a6edaa056e"
-metafile = true
-
-[[files]]
-file = "mods/geckoanimfix.pw.toml"
-hash = "499b9dcff2708b6c4152ff49c5f320d87bb803d0b47b4d88778437c48a59d1f5"
 metafile = true
 
 [[files]]
@@ -861,8 +856,8 @@ hash = "458f6338388af54d424cc3ae4b5c805234210d5bbb661dfef2bbf1cb6d23c7a7"
 metafile = true
 
 [[files]]
-file = "mods/xaeros-minimap-fair-play-edition.pw.toml"
-hash = "b0b924cce899b23d5d1472883105593070bf3a6518af06dff9d7ba5a38eab94a"
+file = "mods/xaeros-minimap.pw.toml"
+hash = "bf8edb8df8ec3804522e688c8ffbc351559821488d7faef2b7e90b13cee0109b"
 metafile = true
 
 [[files]]
