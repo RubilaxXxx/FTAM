@@ -34,6 +34,8 @@ jobs:
 
             # -------- Commit -------- 
             - name: Commit changes
+              env:
+                  GITHUB_TOKEN: ${{ github.token }}
               run: |
                 git config user.name "github-actions[bot]"
       
@@ -47,6 +49,8 @@ jobs:
             # -------- Pull-Request -------- 
       
             - name: Create Pull Request
+              env:
+                  GITHUB_TOKEN: ${{ github.token }}            
               run: |
                 gh pr create \
                   --title "Automated Packwiz Update" \
