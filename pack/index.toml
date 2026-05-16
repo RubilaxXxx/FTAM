@@ -501,11 +501,6 @@ hash = "2d1f7089fae7d676321595a1228f15e9a160a1aeb5519d5508c0f4015781cb43"
 metafile = true
 
 [[files]]
-file = "mods/hidename-nick.pw.toml"
-hash = "3ca2d7e00826eee19c169062089797305c54c8bcad2411113df053ba52f44ef0"
-metafile = true
-
-[[files]]
 file = "mods/hwid.pw.toml"
 hash = "bee793e0946bbe614f0dc048d124ae0e73a483868cc9458104a8d0599371660f"
 metafile = true
