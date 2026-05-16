@@ -200,11 +200,6 @@ hash = "8e9376087852491eb52037279506fefc45e174303530630e8b8afa571b1bd697"
 metafile = true
 
 [[files]]
-file = "mods/almost-unify-everything.pw.toml"
-hash = "be9cb0a91ecd3300fc4ea7c94671824e8dee5d255afef745fcf3c18cf0f2e046"
-metafile = true
-
-[[files]]
 file = "mods/altered-damage.pw.toml"
 hash = "0f14f89f57eeedf9ae7a0481441f81c0e16dd8eb7dae36d288dcea3105f40afb"
 metafile = true
@@ -389,9 +384,8 @@ hash = "02d026e1c24d19792c1e0b1099655e4d31e08f3d84f8fded8586722c124df245"
 metafile = true
 
 [[files]]
-file = "mods/easy-npc.pw.toml"
+file = "mods/easy-npc.pw.toml.unused"
 hash = "a82910bb3bdf21ee7cd39c710acc1fe16d0fa4ff189e22b62e1a3aa01c011524"
-metafile = true
 
 [[files]]
 file = "mods/embeddium.pw.toml"
