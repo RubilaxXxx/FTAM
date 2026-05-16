@@ -129,6 +129,10 @@ file = "config/lrarmor-common.toml"
 hash = "c7b2ad0dde2fba3a9872a5d8d37d8d7ffe528845315ffa1efcbb503916e4539c"
 
 [[files]]
+file = "config/modernfix-mixins.properties"
+hash = "3c1db6a2eebd7919b54bf4ce2997789f22b9e9eaa7c0e94865d5d84fe9e259e7"
+
+[[files]]
 file = "config/reforgedutils-common.toml"
 hash = "4a5ccf56bd4bc844f2fbd6a4035e44eb957b6eb28a851a59b3cbfe6b1343d7d7"
 
@@ -193,6 +197,11 @@ metafile = true
 [[files]]
 file = "mods/almost-unified.pw.toml"
 hash = "8e9376087852491eb52037279506fefc45e174303530630e8b8afa571b1bd697"
+metafile = true
+
+[[files]]
+file = "mods/almost-unify-everything.pw.toml"
+hash = "be9cb0a91ecd3300fc4ea7c94671824e8dee5d255afef745fcf3c18cf0f2e046"
 metafile = true
 
 [[files]]
@@ -371,12 +380,12 @@ metafile = true
 
 [[files]]
 file = "mods/easy-npc-config-ui.pw.toml"
-hash = "2d18366cc19a66aaf26767f8656349bc1f7c8ff0583f7c9bafbc0662fc84a11c"
+hash = "2979b4990d0633cbf259894fc06201ed50093b031719937fb6589b292fc7b095"
 metafile = true
 
 [[files]]
 file = "mods/easy-npc-core.pw.toml"
-hash = "c49870799661eebfe6387a71796953269aa86f3cafd47f42e3fada028025a2b3"
+hash = "02d026e1c24d19792c1e0b1099655e4d31e08f3d84f8fded8586722c124df245"
 metafile = true
 
 [[files]]
