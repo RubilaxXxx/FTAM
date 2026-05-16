@@ -6,7 +6,19 @@ hash = "1912760b4cb6b803d8a826de603c9076b1da71ec2765e9a1f8c1ca78f65278e3"
 
 [[files]]
 file = "config/bcc-common.toml"
-hash = "1ac3153a766b1e81cedcf2cbb26fad37868f3ac5bacbef150966f38ad20aba47"
+hash = "4a11a0ff472108b37aa1af5265de10dff70a66172814bcfe20dcad3b3c8be255"
+
+[[files]]
+file = "config/fancymenu/assets/controller_16px.png"
+hash = "bfafbfe5b963df1b07c3c90d277a76b34d02956cf03eb816dc78adc01d0dadb2"
+
+[[files]]
+file = "config/fancymenu/assets/controller_32px.icns"
+hash = "83f73a8b510c19f7a277315641dda3eafe8a97e8170026b4838fc7889aeb9df3"
+
+[[files]]
+file = "config/fancymenu/assets/controller_32px.png"
+hash = "7901c8df86335372adae13d73368e81c80981e2b4056ae7dca843e9fec8b5b63"
 
 [[files]]
 file = "config/fancymenu/assets/ftam_logo.png"
@@ -18,7 +30,7 @@ hash = "5a325fddc9b81618a4e953e3f53c8e310770f0b3f3f4eaaf03b5de564aa22b58"
 
 [[files]]
 file = "config/fancymenu/custom_gui_screens.txt"
-hash = "535b45d23646e1d4a7e513f75a77821a90eb2174397a26d6992ef01059840598"
+hash = "f633e379ea2a0a9f9350195ca5987f6b0895a8e131013893aee98b25a7ae0260"
 
 [[files]]
 file = "config/fancymenu/customizablemenus.txt"
@@ -26,15 +38,19 @@ hash = "ce0d84b2b57cf5f1f8223fe000ffe065ed91791a27b82411a9028bf2b85d8647"
 
 [[files]]
 file = "config/fancymenu/customization/drippy_loading_overlay_layout.txt"
-hash = "8f47892356132023fbdcbc44fb8e47cfbe91a47c3e175992884bc788b7707dc9"
+hash = "827e4f175202e89be89b407dabb4299903cc9cec9ef38b902fff3d6ce0b5bccb"
 
 [[files]]
 file = "config/fancymenu/customization/pause_screen_layout.txt"
-hash = "d0f90f58af696ce2622f2048e888ff800ba0bd9d6d5c01f14a8844d3a0577d72"
+hash = "7ea3d483438e8388c54c4d53ff5df9c858e11f6425a0fb2cec4977d12ac8b2f7"
 
 [[files]]
 file = "config/fancymenu/customization/title_screen_layout.txt"
 hash = "079cfdff4eefec50463f4ace03400150738a11f20d16c966b2bf4ffc7a7676c3"
+
+[[files]]
+file = "config/fancymenu/customization/voting_layout.txt"
+hash = "95a63798729be76916e9136498387f9d5330d7a67fa2c1a08810dc94757f32df"
 
 [[files]]
 file = "config/fancymenu/layout_editor/widgets/element_layer_control.lewidget"
@@ -50,7 +66,7 @@ hash = "9bdd808b0e3e8a7fa3f0f3b543da5905e53cf20b5bceff2a8eac542d5fec56e1"
 
 [[files]]
 file = "config/fancymenu/options.txt"
-hash = "04c1ee10b07a42f2cd92b2ac5dd8fa716485559448b51149af7d28e0950f279c"
+hash = "7ea37bf1a0fbc4869f22d1779c4fec65adfc444519b5f1cef18121ab3f3059ae"
 
 [[files]]
 file = "config/fancymenu/options.txt.bak"
@@ -113,8 +129,16 @@ file = "config/reforgedutils-common.toml"
 hash = "4a5ccf56bd4bc844f2fbd6a4035e44eb957b6eb28a851a59b3cbfe6b1343d7d7"
 
 [[files]]
+file = "config/yosby/config/embeddium-options.json"
+hash = "b4b0aaec74cd2c37a2d0d384a4195768d8d7cbc9f86c7d993694e394fa35664d"
+
+[[files]]
 file = "config/yosby/config/paperdoll-client.toml"
 hash = "305d33ae13789b164cd42d56ffe15bad2773fc63d1ae0b0a1d345ce58eaf2fc0"
+
+[[files]]
+file = "config/yosby/config/sodium-extra-options.json"
+hash = "fcbbbe7b2ec653da17b80dd0075afe1a57418560067d8936232d06b6dd998783"
 
 [[files]]
 file = "config/yosby/config/sounds/chat.json"
@@ -122,7 +146,7 @@ hash = "0aed31b7a2f297bf70c496e78814339b51a1a18f1f17434ad919d6a8d6447c0e"
 
 [[files]]
 file = "config/yosby/options.txt"
-hash = "63e2143a2a909f1ed90be5aff8072f48e942b4ead3ea6a816d358353f933933f"
+hash = "1d1e9395415c28bd3f7b1ac3f8d8927ccf13ab9db909db5891e157f195391323"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/block/example_block.png"
@@ -229,7 +253,7 @@ metafile = true
 
 [[files]]
 file = "mods/blockhighlighter-me.tyzo.jar"
-hash = "b062f8ac14db3dbf0c928111d7ab8f92779dda9a28a2121f006306353276f8aa"
+hash = "c6ad6cf743a8d04bc21eb5d7c59aec265b104cde49fc48323ebf62cdedc3705c"
 
 [[files]]
 file = "mods/capable-cauldrons.pw.toml"
@@ -307,6 +331,11 @@ hash = "6a62d8663df5fe33f18c8a0d3784a3aab183b252c620c45fc98e677a71b06cde"
 metafile = true
 
 [[files]]
+file = "mods/ctm.pw.toml"
+hash = "38052af2c657d6c1126875e55226ff1fc3cd111c10cfd8327379de03aae247c8"
+metafile = true
+
+[[files]]
 file = "mods/culllessleaves-reforged.pw.toml"
 hash = "b66926151f932f950641ea876a24887366b21aa9d75fb450367a77e74e17e889"
 metafile = true
@@ -314,6 +343,11 @@ metafile = true
 [[files]]
 file = "mods/cupboard.pw.toml"
 hash = "7e58c4b66225f8719153ab8dbafd5973a04a0ec5bb400027cb1d6c482010d08a"
+metafile = true
+
+[[files]]
+file = "mods/dimensional-worldborder-continuation.pw.toml"
+hash = "e899641e3474aa1fe250ed1fb1c4877a2b41c6e05fc688472316fc72aaba4aec"
 metafile = true
 
 [[files]]
@@ -334,6 +368,11 @@ metafile = true
 [[files]]
 file = "mods/easy-npc-config-ui.pw.toml"
 hash = "2d18366cc19a66aaf26767f8656349bc1f7c8ff0583f7c9bafbc0662fc84a11c"
+metafile = true
+
+[[files]]
+file = "mods/easy-npc-core.pw.toml"
+hash = "c49870799661eebfe6387a71796953269aa86f3cafd47f42e3fada028025a2b3"
 metafile = true
 
 [[files]]
@@ -602,6 +641,11 @@ hash = "cfb82bae095c53aa5f9979db4e7a6e802f470b92b36a4ec99ff78f32f7e70ef7"
 metafile = true
 
 [[files]]
+file = "mods/modernfix.pw.toml"
+hash = "6e8cf4f51e029703c0837bf17644b538de77cb538b91ee66d56182cc53c5f8b2"
+metafile = true
+
+[[files]]
 file = "mods/modlist-snooper.pw.toml"
 hash = "ccad1800b1681dce567d74d53c53efcb8a4787c247f294e010416364a6a2e8a1"
 metafile = true
@@ -722,8 +766,8 @@ hash = "f58407313b3af7e0c472a99530d60eb342a73635c560b7047aee59dcc9b75174"
 metafile = true
 
 [[files]]
-file = "mods/reforgedutils-0.0.8-1.20.1.jar"
-hash = "f14121f1d8f68f62d31382d0668601125472520e723f17ce11480c5557f2a97b"
+file = "mods/reforgedutils-0.0.9-1.20.1.jar"
+hash = "9969347d4a4ed872a7a88388eb097b00c9224ed0b60f5a1799d637d28d568c1e"
 
 [[files]]
 file = "mods/reforgedutils.pw.toml-unused"
@@ -844,8 +888,16 @@ file = "resourcepacks/Better Repair Screen.zip"
 hash = "d1b4fbd7d99574168511187479cef3ca34580332cdc56552119920fe8d23d931"
 
 [[files]]
+file = "resourcepacks/Snow Side Texture v.1.0 - 1.20.x.zip"
+hash = "f06a888d413a246843dc31e2caad850a133710da064897b8f7e64e95043b6a6c"
+
+[[files]]
 file = "resourcepacks/TACZ TAC SPRINT v1.4.zip"
 hash = "7b1018f18513b5e44e7b2f32022e201a26a2df21e45f821e7692c13d71aaa1dd"
+
+[[files]]
+file = "resourcepacks/§5§lModded §f§lContainers §8§lDark§8.zip"
+hash = "ee11b48376da55640c007911d93f018ea36297075218c93b5b26a931117e8712"
 
 [[files]]
 file = "resourcepacks/§9⛈ §bUnobtrusive Weather §8[v1.5].zip"
