@@ -1,13 +1,13 @@
 name = "hidename(nick) and Player health show and (Nick Change)-Hidden Name"
-filename = "H2-blockhide1.20.1.jar"
+filename = "H5-keyhide1.20.1.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "930193a66f429ca3e2a90edcb5115a6b57205228"
+hash = "376e3304ca5a7934d3e005a43af58c13f76b1c01"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 6439799
+file-id = 6456250
 project-id = 1200277
