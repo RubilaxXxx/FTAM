@@ -30,7 +30,7 @@ jobs:
             - name: Run Packwiz Update
               working-directory: pack
               run: |
-                   yes | packwiz update --all
+                   Y | packwiz update --all
 
             # -------- Commit -------- 
             - name: Commit changes
