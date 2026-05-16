@@ -28,6 +28,7 @@ jobs:
             # -------- Update --------   
                   
             - name: Run Packwiz Update
+              working-directory: pack
               run: |
                    packwiz update --all
 
