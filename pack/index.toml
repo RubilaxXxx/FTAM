@@ -9,6 +9,10 @@ file = "config/bcc-common.toml"
 hash = "4a11a0ff472108b37aa1af5265de10dff70a66172814bcfe20dcad3b3c8be255"
 
 [[files]]
+file = "config/damageindicator-client.toml"
+hash = "a8c59c94731579dc643d731b4aad95af847132a9719104d93185e633d06c04d5"
+
+[[files]]
 file = "config/fancymenu/assets/controller_16px.png"
 hash = "bfafbfe5b963df1b07c3c90d277a76b34d02956cf03eb816dc78adc01d0dadb2"
 
@@ -422,7 +426,7 @@ metafile = true
 
 [[files]]
 file = "mods/fancymenu.pw.toml"
-hash = "791ec228fa84ff012b1ed3225c6a895cc503211c3d8b5242a6105deec2b12f50"
+hash = "fa9aa329bdbefc9430cdc17bf44456c278eb3a3632956b472f71f97df6c2f9a4"
 metafile = true
 
 [[files]]
@@ -602,7 +606,7 @@ metafile = true
 
 [[files]]
 file = "mods/mekanism-elements.pw.toml"
-hash = "8e6533034ac70f32ac30bb186ffb198fb6f5acc5d6b0c45a176c249571d07a66"
+hash = "c21fe4089505c4830a01392601b1eb3b833ea651570e8834a83448eba5f552ca"
 metafile = true
 
 [[files]]
@@ -637,7 +641,7 @@ metafile = true
 
 [[files]]
 file = "mods/modernfix.pw.toml"
-hash = "6e8cf4f51e029703c0837bf17644b538de77cb538b91ee66d56182cc53c5f8b2"
+hash = "16451920c0072df521f94325819ffa0cd7bc1e5fd1dcf7ddb153aac07a3225c6"
 metafile = true
 
 [[files]]
@@ -881,6 +885,10 @@ metafile = true
 [[files]]
 file = "resourcepacks/Better Repair Screen.zip"
 hash = "d1b4fbd7d99574168511187479cef3ca34580332cdc56552119920fe8d23d931"
+
+[[files]]
+file = "resourcepacks/DoomsdayDecorationInEnglish_v8.zip"
+hash = "292c6b9094ae9052777025aea355686bcd0158b2e0122a47838ec7f3822ade10"
 
 [[files]]
 file = "resourcepacks/Snow Side Texture v.1.0 - 1.20.x.zip"
