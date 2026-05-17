@@ -138,7 +138,7 @@ hash = "4a5ccf56bd4bc844f2fbd6a4035e44eb957b6eb28a851a59b3cbfe6b1343d7d7"
 
 [[files]]
 file = "config/yosby/config/embeddium-options.json"
-hash = "b4b0aaec74cd2c37a2d0d384a4195768d8d7cbc9f86c7d993694e394fa35664d"
+hash = "fd6d25f4e941db66fb0ded4e9a810cca9a22bfb4b3f6342bc62ebcd1970f21c5"
 
 [[files]]
 file = "config/yosby/config/paperdoll-client.toml"
@@ -154,7 +154,7 @@ hash = "0aed31b7a2f297bf70c496e78814339b51a1a18f1f17434ad919d6a8d6447c0e"
 
 [[files]]
 file = "config/yosby/options.txt"
-hash = "1d1e9395415c28bd3f7b1ac3f8d8927ccf13ab9db909db5891e157f195391323"
+hash = "99a24f47e897864ec3fd66d7aacd5bf36c7c5d509557380eaf014c3980bd9b23"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/block/example_block.png"
@@ -400,6 +400,11 @@ metafile = true
 [[files]]
 file = "mods/enchantment-disable-tag.pw.toml"
 hash = "b9715091c68a2eb6b720ccb65a171a98a751d86a359dfd991195280c2f4a06be"
+metafile = true
+
+[[files]]
+file = "mods/euphoria-patches.pw.toml"
+hash = "f268d2c4e9748d321fecdb9bface963cf058279c83ff10a4c95361063a02d04a"
 metafile = true
 
 [[files]]
