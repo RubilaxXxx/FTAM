@@ -1,0 +1,13 @@
+name = "Reforged Highlighter"
+filename = "ReforgedHighlighter.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "e7efa5b758c638eacea0019266b365f577715066"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8104303
+project-id = 1546055

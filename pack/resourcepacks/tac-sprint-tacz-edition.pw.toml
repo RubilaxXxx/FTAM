@@ -1,0 +1,13 @@
+name = "TAC SPRINT - TACZ EDITION"
+filename = "TACZ TAC SPRINT v1.3.zip"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "8849e6854d96230ce2fef30f8deb984ba991e20e"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5548833
+project-id = 1067190

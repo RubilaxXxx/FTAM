@@ -1,0 +1,13 @@
+name = "ReforgedUtils"
+filename = "reforgedutils-0.0.9-1.20.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "5e815c113049d38725854cbe213fec0b960b4b02"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8104484
+project-id = 576855

@@ -42,8 +42,7 @@ ao:true
 prioritizeChunkUpdates:0
 biomeBlendRadius:2
 renderClouds:"false"
-resourcePacks:["vanilla","tacz_resources","mod_resources","fabric","file/§5§lModded §f§lContainers §8§lDark§8.zip","file/Snow Side Texture v.1.0 - 1.20.x.zip","file/DoomsdayDecorationInEnglish_v8.zip","file/§9⛈ §bUnobtrusive Weather §8[v1.5].zip"]
-incompatibleResourcePacks:["file/Snow Side Texture v.1.0 - 1.20.x.zip"]
+resourcePacks:["vanilla","tacz_resources","mod_resources","fabric","file/DoomsdayDecorationInEnglish_v8.zip","file/§9⛈ §bUnobtrusive Weather §8[v1.5].zip","file/Snow Side Texture v2.0 - 1.20.x.zip","file/TACZ TAC SPRINT v1.3.zip","file/§5§lModded §f§lContainers§8.zip","file/§5§lModded §f§lContainers §8§lDark§8.zip"]
 lastServer:
 lang:en_us
 soundDevice:""

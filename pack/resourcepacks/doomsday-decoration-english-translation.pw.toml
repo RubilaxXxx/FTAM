@@ -1,0 +1,13 @@
+name = "Doomsday Decoration English Translation"
+filename = "DoomsdayDecorationInEnglish_v8.zip"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "46105c52cef0363bfe1201a66ba32d3a80963342"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6791817
+project-id = 1201176

@@ -1,0 +1,13 @@
+name = "Snow Side Texture"
+filename = "Snow Side Texture v2.0 - 1.20.x.zip"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "d3ead4e8f9cb673a723aea5854c6b471f12ea439"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7440681
+project-id = 1277991

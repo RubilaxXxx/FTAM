@@ -1,10 +1,6 @@
 hash-format = "sha256"
 
 [[files]]
-file = "bin/modpack.jar"
-hash = "1912760b4cb6b803d8a826de603c9076b1da71ec2765e9a1f8c1ca78f65278e3"
-
-[[files]]
 file = "config/bcc-common.toml"
 hash = "4a11a0ff472108b37aa1af5265de10dff70a66172814bcfe20dcad3b3c8be255"
 
@@ -154,7 +150,7 @@ hash = "0aed31b7a2f297bf70c496e78814339b51a1a18f1f17434ad919d6a8d6447c0e"
 
 [[files]]
 file = "config/yosby/options.txt"
-hash = "99a24f47e897864ec3fd66d7aacd5bf36c7c5d509557380eaf014c3980bd9b23"
+hash = "b272bed0a0f42be020535afb41c6c23e2abb0c0c06f0043b640bb35531f00a84"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/block/example_block.png"
@@ -258,10 +254,6 @@ metafile = true
 file = "mods/biggerreactors.pw.toml"
 hash = "2fd3dde1acdfa58ee1cd8e95930db1660cd061c1dc6388d05a7b3703c7c3b205"
 metafile = true
-
-[[files]]
-file = "mods/blockhighlighter-me.tyzo.jar"
-hash = "c6ad6cf743a8d04bc21eb5d7c59aec265b104cde49fc48323ebf62cdedc3705c"
 
 [[files]]
 file = "mods/capable-cauldrons.pw.toml"
@@ -382,10 +374,6 @@ metafile = true
 file = "mods/easy-npc-core.pw.toml"
 hash = "02d026e1c24d19792c1e0b1099655e4d31e08f3d84f8fded8586722c124df245"
 metafile = true
-
-[[files]]
-file = "mods/easy-npc.pw.toml.unused"
-hash = "a82910bb3bdf21ee7cd39c710acc1fe16d0fa4ff189e22b62e1a3aa01c011524"
 
 [[files]]
 file = "mods/embeddium.pw.toml"
@@ -763,17 +751,19 @@ hash = "d865f2cd643497d8db614a3fa94d0cbe987204a00bbf47caa397b796521dfa83"
 metafile = true
 
 [[files]]
+file = "mods/reforged-highlighter.pw.toml"
+hash = "25fbf1a00d9d4ee871a9226a0e1a38f92163572183a17c7c917fbb45655c0660"
+metafile = true
+
+[[files]]
 file = "mods/reforged-siege.pw.toml"
 hash = "f58407313b3af7e0c472a99530d60eb342a73635c560b7047aee59dcc9b75174"
 metafile = true
 
 [[files]]
-file = "mods/reforgedutils-0.0.9-1.20.1.jar"
-hash = "9969347d4a4ed872a7a88388eb097b00c9224ed0b60f5a1799d637d28d568c1e"
-
-[[files]]
-file = "mods/reforgedutils.pw.toml-unused"
-hash = "d869fda794cc947d4651a27043eed44d129cd0360a8223394e337112ae907bc2"
+file = "mods/reforgedutils.pw.toml"
+hash = "c5a0cfb80f89c688944de66fc379a7e9e158121a938f51f4b111d6fe7a3f6621"
+metafile = true
 
 [[files]]
 file = "mods/rhino.pw.toml"
@@ -886,24 +876,29 @@ hash = "2d117e5dec49c7f08b89e011a7462b21d8ed89df51aba960a172b1c10784d498"
 metafile = true
 
 [[files]]
-file = "resourcepacks/Better Repair Screen.zip"
-hash = "d1b4fbd7d99574168511187479cef3ca34580332cdc56552119920fe8d23d931"
+file = "resourcepacks/colourful-containers-dark-mode-gui-modded-compat.pw.toml"
+hash = "c9fcdb57327752c1ce218b8eeaaedab3ab32caa800ddb2369b06433ebff860f3"
+metafile = true
 
 [[files]]
-file = "resourcepacks/DoomsdayDecorationInEnglish_v8.zip"
-hash = "292c6b9094ae9052777025aea355686bcd0158b2e0122a47838ec7f3822ade10"
+file = "resourcepacks/colourful-containers-modded-compatibility-pack.pw.toml"
+hash = "e593338b46e480ced7f8e6acba1525664a383261bdb267c3fc30a592d4683b70"
+metafile = true
 
 [[files]]
-file = "resourcepacks/Snow Side Texture v.1.0 - 1.20.x.zip"
-hash = "f06a888d413a246843dc31e2caad850a133710da064897b8f7e64e95043b6a6c"
+file = "resourcepacks/doomsday-decoration-english-translation.pw.toml"
+hash = "c48c20340f2146b987ff81de9cd9ad9c01a16cb71132aa44e8a429f402ec78a3"
+metafile = true
 
 [[files]]
-file = "resourcepacks/TACZ TAC SPRINT v1.4.zip"
-hash = "7b1018f18513b5e44e7b2f32022e201a26a2df21e45f821e7692c13d71aaa1dd"
+file = "resourcepacks/snow-side-texture.pw.toml"
+hash = "b94a9a2a0b6bce65b8932d7cbdb251615b1a6aca4137dcd8d42aed22055e0a14"
+metafile = true
 
 [[files]]
-file = "resourcepacks/§5§lModded §f§lContainers §8§lDark§8.zip"
-hash = "ee11b48376da55640c007911d93f018ea36297075218c93b5b26a931117e8712"
+file = "resourcepacks/tac-sprint-tacz-edition.pw.toml"
+hash = "b497718a3f19005b3cab80c2aeeabac34fe818f61b595ce98571c59f4268a399"
+metafile = true
 
 [[files]]
 file = "resourcepacks/§9⛈ §bUnobtrusive Weather §8[v1.5].zip"
@@ -3244,6 +3239,11 @@ hash = "cc216f5b203ca0b774ed8ee80dcc1878a614b2b6854c38222976f7d7c18341e7"
 [[files]]
 file = "servers.dat"
 hash = "8ad68c5345b7899a67cffb118e78ac5f69b61f083473d6faee028d221f094e1e"
+
+[[files]]
+file = "shaderpacks/complementary-unbound.pw.toml"
+hash = "2267df77006981ef26af0c5cc4795f80a8c63d1032b8fe2456c735dd9b0a7338"
+metafile = true
 
 [[files]]
 file = "tacz/CS2 Knifes Pack.zip"
