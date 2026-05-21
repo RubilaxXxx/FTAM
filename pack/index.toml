@@ -21,6 +21,10 @@ file = "config/fancymenu/assets/controller_32px.png"
 hash = "7901c8df86335372adae13d73368e81c80981e2b4056ae7dca843e9fec8b5b63"
 
 [[files]]
+file = "config/fancymenu/assets/ftam_logo - Copie.png"
+hash = "525fda1a5a30cc94f930bdca0d787f43f1bdd987a4bd2f76ddb3ab96e5de0e0b"
+
+[[files]]
 file = "config/fancymenu/assets/ftam_logo.png"
 hash = "06ca4184e02f99610c258b586b10050787b4d426e8d1a4e060e6380e053ec147"
 
