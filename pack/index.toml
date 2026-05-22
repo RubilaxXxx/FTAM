@@ -1,6 +1,10 @@
 hash-format = "sha256"
 
 [[files]]
+file = "bin/modpack.jar"
+hash = "1912760b4cb6b803d8a826de603c9076b1da71ec2765e9a1f8c1ca78f65278e3"
+
+[[files]]
 file = "config/bcc-common.toml"
 hash = "4a11a0ff472108b37aa1af5265de10dff70a66172814bcfe20dcad3b3c8be255"
 
