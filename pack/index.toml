@@ -1,12 +1,24 @@
 hash-format = "sha256"
 
 [[files]]
-file = "bin/modpack.jar"
-hash = "1912760b4cb6b803d8a826de603c9076b1da71ec2765e9a1f8c1ca78f65278e3"
-
-[[files]]
 file = "config/bcc-common.toml"
 hash = "4a11a0ff472108b37aa1af5265de10dff70a66172814bcfe20dcad3b3c8be255"
+
+[[files]]
+file = "config/crash_assistant/config.toml"
+hash = "b70c2dc3af5f1060892dddbaa0df1f97a3d4101ca1bea893b07e27edb2f90ae4"
+
+[[files]]
+file = "config/crash_assistant/crash_assistant_localization_overrides/README.md"
+hash = "943e1c3672b8a03f27519b357091133205119c7b3db2fcc4c25b597cabf8926d"
+
+[[files]]
+file = "config/crash_assistant/scripts/log_analysis/example.jexl"
+hash = "adde7e5e42b9d716f14a9bc49797999a21a0ee05cc67e71410a232f830115b3b"
+
+[[files]]
+file = "config/crash_assistant/scripts/startup/example.jexl"
+hash = "346378f04a9e7319cdcb405fad82d6e7f1b36b39e0e4129c00a226b49f41cf37"
 
 [[files]]
 file = "config/damageindicator-client.toml"
@@ -134,11 +146,11 @@ hash = "c7b2ad0dde2fba3a9872a5d8d37d8d7ffe528845315ffa1efcbb503916e4539c"
 
 [[files]]
 file = "config/modernfix-mixins.properties"
-hash = "3c1db6a2eebd7919b54bf4ce2997789f22b9e9eaa7c0e94865d5d84fe9e259e7"
+hash = "d3659b12714602968b5bf66433410cf3d730efa2652cf526c03dbc6999c56002"
 
 [[files]]
 file = "config/reforgedutils-common.toml"
-hash = "4a5ccf56bd4bc844f2fbd6a4035e44eb957b6eb28a851a59b3cbfe6b1343d7d7"
+hash = "57bfc25ab90cce840196aa4c8eec53d680ee3e16c8d76bfca6eaa0b6a096950c"
 
 [[files]]
 file = "config/yosby/config/embeddium-options.json"
@@ -187,6 +199,11 @@ hash = "b35325dc909d8db87ab490450d554894d63cec7e74cf892c587393aba9f20c10"
 [[files]]
 file = "kubejs/config/common.properties"
 hash = "878cb822d9572a94256ad9bf46bedabd2e66d5f05920dfe2b72611e756905537"
+
+[[files]]
+file = "mods/accelerated-rendering.pw.toml"
+hash = "4a007712f98fe5bc42ac1175679d69124c2a31c1ef7e5e1a64ae73e9d0b0497b"
+metafile = true
 
 [[files]]
 file = "mods/advancedae.pw.toml"
@@ -326,6 +343,11 @@ metafile = true
 [[files]]
 file = "mods/crafttweaker.pw.toml"
 hash = "3a1501153c752f350b079f0676ba4b2b610187d62f30f5910ef8d025a4af7de6"
+metafile = true
+
+[[files]]
+file = "mods/crash-assistant.pw.toml"
+hash = "440554aaa73e84076fbcfb59cce2890e3d16bad871011d9824c23c156dc5e87b"
 metafile = true
 
 [[files]]
@@ -664,6 +686,11 @@ hash = "318a137293d0919ddeb5e25c3facd5bc83de60366ac6cd5707d28ee650330f62"
 metafile = true
 
 [[files]]
+file = "mods/neoauth.pw.toml"
+hash = "dbf9f7d8a3460cc820854358f2e8b9afc6e06bb7017f7cdff08b2d453eacbb82"
+metafile = true
+
+[[files]]
 file = "mods/netherportalfix.pw.toml"
 hash = "820d6b97344411476b96ae2bc8a3e4b9e30e15dfd15d8d0c945726b0011928d4"
 metafile = true
@@ -721,6 +748,11 @@ metafile = true
 [[files]]
 file = "mods/placebo.pw.toml"
 hash = "045d582e2c534c5bb96d7336b4ae2cd12692c6de29b19ae5f1dbfd8759c03b03"
+metafile = true
+
+[[files]]
+file = "mods/playeranimator.pw.toml"
+hash = "b52622122c19a3894e62fc5506d7c3332d202504fd406d6718be646f979feb40"
 metafile = true
 
 [[files]]
